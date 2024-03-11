@@ -6,20 +6,18 @@ const styles = StyleSheet.create({
         justifyContent:'center',
         backgroundColor:'#E3F2FD',
         padding: 8,
-        width:'100%',
+       // width:'100%',
+        borderRadius:20,
+        padding:10,
            
     },  
-    paragraph: {
-        margin: 24,
-        fontSize: 18, 
+    titulo: {
+        fontSize: 30, 
         fontWeight: 'bold',
-        textAlign:'center',
-        color:'#1565C0',
     },
     image:{
      width:'90%',
-     height:'15%',
-     margin: 10,
+     resizeMode: 'center',//stretch
  }
      },
     
