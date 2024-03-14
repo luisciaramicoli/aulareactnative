@@ -6,7 +6,13 @@ import styles from './styles';
 
 import logo from '../../assets/logo.png';
 
-
+const Saudacoes = (props) => {
+    return(
+        <Text style={{textAlign:'center'}}>
+            Olá{props.name}!
+        </Text>
+    )
+}
 
 export default function Atividade1 () { 
 
@@ -18,9 +24,7 @@ export default function Atividade1 () {
                <Saudacoes name='Mario'/>
                <Saudacoes name='Mario'/>
                <Saudacoes name='Mario'/>
-               <Saudacoes name='Mario'/>
-            
-              
+               <Saudacoes name='Mario'/>    
         </View>
     );
 }
