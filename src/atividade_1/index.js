@@ -20,8 +20,9 @@ export default function Atividade1 () {
         <View style={styles.container}>
             <Image source={logo} style={styles.image}/>
             <Text style={styles.titulo}></Text>
-            <Ola nomePessoa={'Gilvanildo'}/>
-            <Ola nomePessoa={'Gracinda'}/>
+            <Ola>Jascinto</Ola>
+            <Ola>Janilda</Ola>
+
                <Saudacoes name=' Mario'/>
                <Saudacoes name=' Mario'/>
                <Saudacoes name=' Mario'/>
