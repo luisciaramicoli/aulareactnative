@@ -12,35 +12,29 @@ const styles = StyleSheet.create({
     },
     container1: {
        //flex:1,
-       width:'100%',
-        borderRadius:20,
+       width:'80%',
         alignItems: 'center',
         flexDirection:'row',
-        justifyContent:'space-around'
+        justifyContent:'center',
+        borderWidth:3,
+        marginTop:20,
+        borderRadius:30,
         
     },
-    container2: {
-        //flex:1,
-        width:'170%',
-        borderRadius:20,
-        alignItems: 'center',
-        flexDirection:'row',
-        justifyContent:'space-around'
-         
-     },
+    
     titulo:{
         fontSize: 30,
         fontWeight:'bold',
     },
     botao:{
-        width:'20%',
+        width:'70%',
         padding: 20,
         margin: 20,
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 20,
         backgroundColor:'#000',
-        flexDirection:"row"
+       
 
     },
  
@@ -50,6 +44,11 @@ const styles = StyleSheet.create({
         alignItems:"center",
         justifyContent:'space-between',
         
+    },
+
+    botaocontainer:{
+        width:'30%',
+        margin:20,
     },
     
 });
