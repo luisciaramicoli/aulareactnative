@@ -1,25 +1,33 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-    container1: {
+    container: {
         backgroundColor: '#fafafa',
         width:'100%',
         borderRadius:20,
         alignItems: 'center',
         padding: 200,
-        flexDirection:'row',
-        justifyContent:"center",
+        justifyContent:"space-around",
         
     },
-    container: {
-       flex:1,
-        backgroundColor: '#fafafa',
-        width:'100%',
+    container1: {
+       //flex:1,
+       width:'100%',
         borderRadius:20,
         alignItems: 'center',
-        padding: 100,
+        flexDirection:'row',
+        justifyContent:'space-around'
         
     },
+    container2: {
+        //flex:1,
+        width:'170%',
+        borderRadius:20,
+        alignItems: 'center',
+        flexDirection:'row',
+        justifyContent:'space-around'
+         
+     },
     titulo:{
         fontSize: 30,
         fontWeight:'bold',
