@@ -2,59 +2,58 @@ import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        width: '100%', 
-        height: '100%', 
-        alignItems: 'center', 
-        backgroundColor: '#ffcdd2', 
-        padding: 8, 
+       flex:1,
+       justifyContent:'center',
+       backgroundColor:'#FF80AB',
+       padding: 8,
+       width: '100%',
+       borderRadius: 20,
     }, 
     titulo: {
+        margin: 6,
         fontSize: 30, 
-        fontWeight: 'bold', 
-        color: '#b71c1c', 
-        margin: 20, 
-        marginBottom: 40, 
+        fontWeight: 'bold',
+        textAlign:'center', 
+        color: '#C51162',  
     }, 
-    texto: {
-        fontSize: 25, 
-        marginVertical: 10, 
-        padding: 5, 
-        color: '#b71c1c', 
+    txtSaida: {
+        margin: 6,
+        fontSize: 22, 
+        fontWeight: 'bold',
+        textAlign:'center',
+        color: '#E91E63', 
     }, 
-    input: {
-        fontSize: 25, 
-        width: '80%', 
-        textAlign: 'center', 
-        borderWidth: 3, 
-        borderColor: '#b71c1c', 
-        borderRadius: 20, 
-        padding: 5, 
+    txtEntrada: {
+        borderWidth: 4,  
+        textAlign:'center',
+        fontSize: 22,
+        borderColor: '#E91E63',
+        color: '#E53935',
+        borderRadius: 10,
+        marginTop: 10,
+        padding: 10,
     }, 
-    linha: {
-        borderBottomWidth: 3,
-        borderBlockColor: '#b71c1c',
-        marginVertical:20,
-        width:'100%'
+    button: {
+        backgroundColor: '#E91E63',
+        height: 60,
+        justifyContent: 'center',
+        borderRadius: 10,
+        marginTop: 20,
+        width: '100%',
     },
-    botao:{
-        width: '80%',
-        padding:16,
-        alignItems:'center',
-        borderRadius:20,
-        backgroundColor: '#b71c1c',
-        marginVertical:20,
+    buttonTouch: {
+        backgroundColor: '#C51162',
     },
-    botaoPress:{
-        backgroundColor: '#fff',
+    textButton: {
+        fontSize: 30,
+        color: '#FF80AB',
+        textAlign:'center',
     },
-    textBotao:{
-        color: '#ffcdd2',
-        fontSize: 20,
+    textLabel:{
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: '#C51162',
     },
-    textBotaoPress:{
-        color: '#b71c1c',
-    }
-
 }); 
 
 export default styles;

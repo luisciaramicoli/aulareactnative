@@ -62,7 +62,7 @@ export default function Exemplo_5(){
         }
         onFocus={() => setIsFocusN2(true)}
         onBlur={() => setIsFocusN2(false)}
-        onChangeText={(num2) => setN1(num2)}
+        onChangeText={(num2) => setN2(num2)}
         value={n2}
         />
 
@@ -101,7 +101,7 @@ export default function Exemplo_5(){
             <Text style={styles.textButton}> + </Text>
 
         </Pressable>
-    </View>>
+    </View>
      
 );
 }
