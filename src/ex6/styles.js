@@ -75,11 +75,24 @@ textlabel: {
     fontWeight: 'bold',
     color: '#C51162',
 },
-imc:{
+
+imc: {
+
     color: 'lightgray',
     fontSize: 65,
+    //alignSelf: 'center',
     marginVertical: 15,
-}
+},
+mensagem: {
+
+    color: 'lightgray',
+    fontSize: 40,
+    //alignSelf: 'center',
+    marginVertical: 15,
+},
+
+
+
 }
 );
 

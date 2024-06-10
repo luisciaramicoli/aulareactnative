@@ -4,17 +4,18 @@ import { Pressable, Text } from 'react-native';
 import styles from './styles';
 
 
-export default function Botao ({children, calcularIMC}) {
-    
+export default function Botao ({children, calcular}) {
+
     return (
         
     <Pressable style={
-        ({pressed}) => pressed ? 
+        ( {pressed} ) => pressed ? 
     [styles.botao, styles.btnPress] 
     : 
     styles.botao}
 
-    onPress={() => calcularIMC()}
+    onPress={() => calcular()}
+    
     >
         <Text style={styles.txtbotao}>{children}</Text>
     </Pressable>
